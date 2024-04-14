@@ -1,0 +1,90 @@
+body{
+   background: url(bg1.jpg) no-repeat;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.singin{
+    width: 500px;
+    height: 600px;
+    align-items: center;
+    background-color: rgb(208, 231, 231);
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 20px 20px 20px 2px rgba(59, 58, 58, 0.2), 0 5px 5px 0 rgba(104, 63, 63, 0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+    opacity: 0.8;
+}
+
+.login{
+    width: 450px;
+    height: 400px;
+    align-items: center;
+    background-color: azure;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 20px;
+    opacity: 0.6;
+}
+
+.layer2{
+    
+    align-items: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    
+
+}
+
+h1{
+    text-align: center;
+    
+}
+
+form{
+    width: 300px;
+    margin: 20px auto;
+    
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: 0;
+    border: 1px solid rgb(91, 92, 93);
+    border-radius: 6px;
+    outline: none;
+    background-color: #bdcbe0;
+}
+
+input[type="submit"]{
+    width: 300px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #360985;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #0f52ba;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    
+}
